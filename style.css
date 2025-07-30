@@ -125,3 +125,78 @@ background: #FFFFFF;
 .amarelo{
 background: #dfca91;
 }
+
+@media (max-width: 1024px) {
+    body {
+        padding: 20px 60px;
+    }
+
+    .caixa-p {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-tenis {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 30px;
+    }
+
+    .caixa-p {
+        gap: 20px;
+    }
+
+    .caixa-botoes {
+        justify-content: center;
+    }
+
+    .imagem-tenis {
+        width: 80%;
+    }
+
+    body::after {
+        font-size: 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .botao-carrinho {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .botoes {
+        width: 50px;
+        height: 50px;
+    }
+
+    .imagem-tenis {
+        transform: rotate(-15deg);
+    }
+}
