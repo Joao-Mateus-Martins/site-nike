@@ -10,4 +10,4 @@
 
   <h2>⬇️Abra o site na pagina aqui </h2> 
   
-<a href=https://joao-mateus-martins.github.io/site-nike/>![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)</a>
+<a href=https://site-nike-joao-mateus-martins-alves-projects.vercel.app/>![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)</a>
